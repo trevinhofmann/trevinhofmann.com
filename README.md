@@ -4,12 +4,12 @@ The trevinhofmann.com website
 
 ## Getting Started
 
-`
+```
 git clone https://github.com/thofmann/trevinhofmann.com
 cd trevinhofmann.com
 npm install
 npm start
-`
+```
 
 ## Developing
 
