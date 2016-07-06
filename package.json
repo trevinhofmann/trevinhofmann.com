@@ -4,7 +4,7 @@
   "description": "The trevinhofmann.com website",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "grunt build"
+    "prepublish": "grunt build"
   },
   "main": "index.js",
   "dependencies": {
