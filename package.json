@@ -7,11 +7,15 @@
     "prepublish": "grunt build"
   },
   "main": "index.js",
+  "engines": {
+    "node": "~4.0"
+  },
   "dependencies": {
     "express": "^4.12.4"
   },
   "devDependencies": {
     "babelify": "^6.3.0",
+    "grunt": "^1.0.1",
     "grunt-babel": "^5.0.1",
     "grunt-browserify": "^4.0.0",
     "grunt-config-dir": "^0.3.2",
