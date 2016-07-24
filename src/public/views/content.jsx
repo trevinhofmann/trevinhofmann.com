@@ -1,12 +1,11 @@
-'use strict';
-
+import React from 'react';
 import AboutMe from './aboutMe.jsx';
 import Connect from './connect.jsx';
 import Resume from './resume.jsx';
 
-export default React.createClass({
+export default class Content extends React.Component {
 
-    render: function() {
+    render() {
         return (
             <div id='content'>
                 <div className='container'>
@@ -29,4 +28,4 @@ export default React.createClass({
         );
     }
 
-});
+}

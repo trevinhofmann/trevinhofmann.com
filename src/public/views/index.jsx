@@ -1,8 +1,8 @@
-'use strict';
-
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Content from './content.jsx';
 
-React.render(
+ReactDOM.render(
     <Content />,
-    document.body
+    document.getElementById('container')
 );

@@ -1,7 +1,8 @@
-export default React.createClass({
+import React from 'react';
 
-    render: function() {
+export default class AboutMe extends React.Component {
 
+    render() {
         return (
             <div id='about-me' className='section'>
                 <h2>About Me</h2>
@@ -11,7 +12,6 @@ export default React.createClass({
                 <p>Shortly after moving to Milwaukee for school, I began developing remotely for <a target='_blank' href='https://www.bitalo.com/'>Bitalo</a>, working on projects such as a <a target='_blank' href='https://bitalo.com/mining'>Bitcoin mining pool</a>, <a target='_blank' href='https://play.google.com/store/apps/details?id=org.hofmannt.bwallet'>mobile wallet</a>, and <a target='_blank' href='https://market.bitalo.com/'>marketplace</a>. It was my great pleasure to have worked in San Jose during the summer of 2015 as a software engineer intern at <a target='_blank' href='https://www.paypal.com/'>PayPal</a>. I am currently considering internship options for this coming summer.</p>
             </div>
         );
-
     }
 
-});
+}

@@ -1,7 +1,8 @@
-export default React.createClass({
+import React from 'react';
 
-    render: function() {
+export default class Connect extends React.Component {
 
+    render() {
         return (
             <div id='connect' className='section'>
                 <h2>Connect</h2>
@@ -26,7 +27,6 @@ export default React.createClass({
                 </p>
             </div>
         );
-
     }
 
-});
+}

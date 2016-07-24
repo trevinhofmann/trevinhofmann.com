@@ -1,7 +1,8 @@
-export default React.createClass({
+import React from 'react';
 
-    render: function() {
+export default class Resume extends React.Component {
 
+    render() {
         return (
             <div id='connect' className='section'>
                 <h2>Résumé</h2>
@@ -10,7 +11,6 @@ export default React.createClass({
                 </p>
             </div>
         );
-
     }
 
-});
+}
