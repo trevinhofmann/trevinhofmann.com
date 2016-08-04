@@ -1,6 +1,6 @@
 {
   "name": "trevinhofmann.com",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The trevinhofmann.com website",
   "scripts": {
     "start": "node index.js",
